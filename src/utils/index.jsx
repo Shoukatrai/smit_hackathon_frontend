@@ -1,5 +1,5 @@
 import { Bounce, toast } from "react-toastify";
-
+export const BASE_URL = "http://localhost:5000/api/"
 export const toastAlert = (object) => {
     if (object.type === "success") {
         toast.success(object.message, {
