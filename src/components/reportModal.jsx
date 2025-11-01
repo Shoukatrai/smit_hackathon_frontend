@@ -38,7 +38,7 @@ export const AddReportModal = ({ open, setOpen, isRefresh, setIsRefresh }) => {
 
     const onSubmit = async (formDataObj) => {
         try {
-            console.log(formDataObj)
+            console.log("formDataObj" , formDataObj)
             if (!reportFile) {
                 alert("Please select a file.");
                 return;

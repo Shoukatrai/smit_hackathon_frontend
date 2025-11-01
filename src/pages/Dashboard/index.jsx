@@ -19,7 +19,7 @@ const FamilyPage = () => {
                   },
               });
               if (response.data) {
-                  setReports(response.data);
+                  setReports(response.data.data);
               }
           } catch (error) {
               console.error("Error fetching reports:", error.message);

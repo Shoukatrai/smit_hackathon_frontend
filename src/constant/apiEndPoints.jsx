@@ -3,5 +3,7 @@ export const apiEndPoints = {
     signup: "auth/signup",
     uploadReport: "report/upload",
     getReport: "report/get_report",
-    getSingleReport: (id) => `get_report/:${id}`
+    getSingleReport: (id) => `get_report/:${id}`,
+    addFamilyMember: "family/upload",
+    getFamilyMember: "family/get"
 }
